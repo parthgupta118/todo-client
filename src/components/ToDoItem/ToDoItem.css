@@ -1,0 +1,3 @@
+.todo-item:hover .todo-actions {
+    visibility: visible !important;
+}
