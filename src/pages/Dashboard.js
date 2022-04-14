@@ -152,7 +152,6 @@ function Dashboard() {
               <option value="all">All</option>
               <option value="completed">Completed</option>
               <option value="active">Active</option>
-              <option value="has-due-date">Has due date</option>
             </select>
           </div>
           <div className="col-auto d-flex align-items-center px-1 pr-3">
