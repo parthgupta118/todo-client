@@ -1,0 +1,132 @@
+.auth-container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow-y: hidden;
+}
+
+.auth-image-section img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+}
+
+.form-heading {
+  align-self: flex-start;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.form-fields {
+  width: 20rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.form-field {
+  width: 100%;
+}
+
+.form-field input {
+  width: 100%;
+}
+
+.form-field input {
+  height: 4rem;
+  border: none;
+  /* border-bottom: 1px solid #b3b3b3; */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.form-field input:focus {
+  box-shadow: #9775fa 0px 1.5px 0px;
+}
+
+.form-field input::-webkit-input-placeholder {
+  font-family: "Inter", cursive;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+.fullname-group {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.auth-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f0ff;
+  background-position: 0 0;
+  border: none;
+  border-radius: 0.6rem;
+  color: #9775fa;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 4rem;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.auth-button:active,
+.auth-button:hover,
+.auth-button:focus {
+  outline: 0;
+}
+
+.auth-button:active {
+  background-color: #eae2ff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #9775fa;
+}
+
+.auth-button:hover {
+  background-color: #eae2ff;
+}
+
+.auth-button:active:hover,
+.auth-button:focus:hover,
+.auth-button:focus {
+  background-color: #eae2ff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #9775fa;
+}
+
+.auth-footer {
+  font-size: 1.2rem;
+}
+
+.auth-footer span {
+  font-weight: 700;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #1c7ed6;
+}
